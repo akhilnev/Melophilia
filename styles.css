@@ -7,6 +7,40 @@
   display: block;
 }
 
+.background-videos {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 600%;
+    height: 100%;
+    overflow-x: scroll;
+  }
+  
+  .background-video {
+    position: relative;
+    float: left;
+    width: 16.6666%;
+    height: 100%;
+  }
+  
+  .background-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    /* your content styles here */
+  }
+  
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
