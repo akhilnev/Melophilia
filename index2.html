@@ -70,22 +70,42 @@
           </header>
           
           <div class="video-container" id="video1">
-            <video src="./pictures/drake-hotline-bling.mp4" autoplay muted loop controls="false"></video>
+            <video src="./pictures/drake-hotline-bling.mp4" autoplay muted loop id="my-video" controls="false"></video>
          </div>
          
          <div class="video-container" id="video2">
-            <video src="./pictures/ariana.mp4" autoplay muted loop controls="false"></video>
+            <video src="./pictures/ariana.mp4" autoplay muted loop id="my-video2" controls="false"></video>
          </div>
          <div class="video-container" id="video3">
-          <video src="./pictures/weeknd.mp4" autoplay muted loop controls="false"></video>
+          <video src="./pictures/weeknd.mp4" autoplay muted loop id="my-video3" controls="false"></video>
        </div>
        
        <div class="video-container" id="video4">
-          <video src="./pictures/charlie.mp4" autoplay muted loop controls="false"></video>
+          <video src="./pictures/charlie.mp4" autoplay muted loop id="my-video4" controls="false"></video>
        </div>
        <div class="video-container" id="video5">
-        <video src="./pictures/billie.mp4" autoplay muted loop controls="false"></video>
+        <video src="./pictures/billie.mp4" autoplay muted loop id="my-video5" controls="false"></video>
      </div>
+     <script>
+      var video = document.getElementById("my-video");
+      video.removeAttribute("controls");
+    </script>
+    <script>
+      var video = document.getElementById("my-video2");
+      video.removeAttribute("controls");
+    </script>
+    <script>
+      var video = document.getElementById("my-video3");
+      video.removeAttribute("controls");
+    </script>
+    <script>
+      var video = document.getElementById("my-video4");
+      video.removeAttribute("controls");
+    </script>
+    <script>
+      var video = document.getElementById("my-video5");
+      video.removeAttribute("controls");
+    </script>
     <!-- <section class="featured">
       <div class="featured-image">
         <img src="images/featured.jpg" alt="Featured product image">
