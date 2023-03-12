@@ -1,4 +1,12 @@
 /* Global Styles */
+.logo {
+  display: block;
+}
+
+.navbarArtists {
+  display: block;
+}
+
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
