@@ -1,0 +1,24 @@
+{
+    "item1": {
+      "name": "Drake Scorpion Hoodie",
+      "description": "Black hoodie with the Scorpion album art on the front and 'Drake' printed on the back.",
+      "price": 50,
+      "image": "https://example.com/scorpion-hoodie.jpg",
+      "size": ["S", "M", "L", "XL"]
+    },
+    "item2": {
+      "name": "Drake Certified Lover Boy T-Shirt",
+      "description": "White t-shirt with 'Certified Lover Boy' printed on the front and 'Drake' printed on the back.",
+      "price": 25,
+      "image": "https://example.com/clb-tshirt.jpg",
+      "size": ["S", "M", "L", "XL"]
+    },
+    "item3": {
+      "name": "Drake OVO Owl Cap",
+      "description": "Black baseball cap with the OVO owl logo embroidered on the front.",
+      "price": 30,
+      "image": "https://example.com/ovo-cap.jpg",
+      "size": ["One Size"]
+    }
+  }
+  
