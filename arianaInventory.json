@@ -1,0 +1,24 @@
+
+  {
+    "item1": {
+      "name": "Sweetener Hoodie",
+      "description": "A black hoodie with the Sweetener album artwork printed on the front.",
+      "price": 39.99,
+      "image": "https://example.com/scorpion-hoodie.jpg",
+      "size": ["S", "M", "L", "XL"]
+    },
+    "item2": {
+      "name": "Positions T-Shirt",
+      "description": "A white T-shirt with the Positions album artwork printed on the front.",
+      "price": 24.99,
+      "image": "https://example.com/clb-tshirt.jpg",
+      "size": ["S", "M", "L", "XL"]
+    },
+    "item3": {
+        "name": "Thank U Next Backpack",
+        "description": "A pink backpack with the Thank U Next album artwork printed on the front pocket.",
+        "price": 49.99,
+        "image": "https://example.com/images/ag003.jpg",
+      "size": ["One Size"]
+    }
+  }  

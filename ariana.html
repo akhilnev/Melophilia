@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ariana Home</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="ariana.js"></script>
 </head>
 <body>
     <main>
@@ -34,6 +35,13 @@
               </form>
             </div> -->
           </header>
+          <div class="video-container" id="video2">
+              <video src="./pictures/ariana.mp4" autoplay muted loop id="my-video2" controls="false"></video>
+           </div>
+           <script>
+            var video = document.getElementById("my-video2");
+            video.removeAttribute("controls");
+          </script>
     </main>
 </body>
 </html>
