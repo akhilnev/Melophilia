@@ -1,4 +1,4 @@
-fetch('drakeInventory.json')
+fetch('data.json')
   .then(response => response.json())
   .then(data => {
     for (const item in data) {

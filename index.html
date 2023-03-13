@@ -1,297 +1,150 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Kausshik and Akhilesh">
-    <meta name="generator" content="Hugo 0.108.0">
-    <title>Melophilia</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melophilia</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <!-- <div class="background-videos">
+        <div class="video-container">
+          <video autoplay muted loop>
+            <source src="./pictures/drake-hotline-bling.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="video-container">
+          <video autoplay muted loop>
+            <source src="./pictures/ariana.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="video-container">
+          <video autoplay muted loop>
+            <source src="./pictures/weeknd.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="video-container">
+          <video autoplay muted loop>
+            <source src="./pictures/charlie.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
 
-    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/"> -->
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-<!-- <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet"> -->
-
-    <style>
-      .alignbeau{
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-      }
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      .b-example-divider {
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-    </style>
-
+        <div class="video-container">
+          <video autoplay muted loop>
+            <source src="./pictures/billie.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div> -->
+        <!-- your HTML text here -->
+        <header>
+            <div class="logo">
+        
+              <a href="index.html">
+                <img src="pictures/logo.png" alt="Melophilia logo">
+              </a>
+            </div>
+            
+            <nav class="navbarArtists">
+              <ul>
+                <li><a href="./drake.html">DRAKE</a></li>
+                <li><a href="./ariana.html">ARIANA</a></li>
+                <li><a href="#">WEEKND</a></li>
+                <li><a href="#">CHARILE PUTH</a></li>
+                <li><a href="#">KYGO</a></li>
+                <li><a href="#">BILLIE EILISH</a></li>
+                <li><a href="ABOUTUS.html">ABOUT US</a></li>
+              </ul>
+            </nav>
+            <!-- <div class="search">
+              <form>
+                <input type="text" placeholder="Search">
+                <button type="submit">Go</button>
+              </form>
+            </div> -->
+          </header>
+          
+          <div class="video-container" id="video1">
+            <a href="./drake.html">
+            <video src="./pictures/drake-hotline-bling.mp4" autoplay muted loop id="my-video" controls="false"></video>
+            </a>
+         </div>
+         
+         <div class="video-container" id="video2">
+          <a href="./ariana.html">
+            <video src="./pictures/ariana.mp4" autoplay muted loop id="my-video2" controls="false"></video>
+            </a>
+         </div>
+         <div class="video-container" id="video3">
+          <video src="./pictures/weeknd.mp4" autoplay muted loop id="my-video3" controls="false"></video>
+       </div>
+       
+       <div class="video-container" id="video4">
+          <video src="./pictures/charlie.mp4" autoplay muted loop id="my-video4" controls="false"></video>
+       </div>
+       <div class="video-container" id="video5">
+        <video src="./pictures/billie.mp4" autoplay muted loop id="my-video5" controls="false"></video>
+     </div>
+     <script>
+      var video = document.getElementById("my-video");
+      video.removeAttribute("controls");
+    </script>
+    <script>
+      var video = document.getElementById("my-video2");
+      video.removeAttribute("controls");
+    </script>
+    <script>
+      var video = document.getElementById("my-video3");
+      video.removeAttribute("controls");
+    </script>
+    <script>
+      var video = document.getElementById("my-video4");
+      video.removeAttribute("controls");
+    </script>
+    <script>
+      var video = document.getElementById("my-video5");
+      video.removeAttribute("controls");
+    </script>
+    <!-- <section class="featured">
+      <div class="featured-image">
+        <img src="images/featured.jpg" alt="Featured product image">
+      </div>
+      <div class="featured-content">
+        <h2>Discover The New SUBLIMAGE Essential Comfort Cleanser</h2>
+        <p>An exceptional cleansing experience. Skin feels purified, comfortable and incredibly soft.</p>
+        <a href="#" class="button">Shop Now</a>
+      </div>
+    </section>
+    <section class="categories">
+      <h2>Shop by Category</h2>
+      <div class="category">
+        <img src="images/category1.jpg" alt="Category image">
+        <h3>Makeup</h3>
+        <a href="#">Shop Now</a>
+      </div>
+      <div class="category">
+        <img src="images/category2.jpg" alt="Category image">
+        <h3>Skincare</h3>
+        <a href="#">Shop Now</a>
+      </div>
+      <div class="category">
+        <img src="images/category3.jpg" alt="Category image">
+        <h3>Fine Jewelry</h3>
+        <a href="#">Shop Now</a>
+      </div>
+      <div class="category">
+        <img src="images/category4.jpg" alt="Category image">
+        <h3>Fashion</h3>
+        <a href="#">Shop Now</a>
+      </div>
+    </section> -->
     
-  </head>
-  <body>
-    
-<header>
-  <div class="collapse bg-dark" id="navbarHeader">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 col-md-7 py-4">
-          <h4 class="text-white">About</h4>
-          <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-        </div>
-        <div class="col-sm-4 offset-md-1 py-4">
-          <h4 class="text-white">Contact</h4>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Follow on Twitter</a></li>
-            <li><a href="#" class="text-white">Like on Facebook</a></li>
-            <li><a href="#" class="text-white">Email me</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container">
-      <a href="./about_us.html" class="navbar-brand d-flex align-items-center">
-        <strong>About Us</strong>
-      </a>
-      <a href="./index.html" class="navbar-brand d-flex align-items-center">
-        <strong>Home</strong>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </div>
-</header>
-<main>
-  <!-- <section class="py-5 text-center container">
-    <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Album example</h1>
-        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-        <p>
-          <a href="#" class="btn btn-primary my-2">Main call to action</a>
-          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-        </p>
-      </div>
-    </div>
-  </section> -->
-
-  <section>
-    <h1 style="text-align: center;">Melophilia</h1>
-  </section>
-
-  <div class="album py-5 bg-light">
-    <div class="container">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
-          <div class="card shadow-sm">
-            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-            <img class="alignbeau" src="./pictures/Drake.jpeg.jpeg" alt="Drake" width="400" height="350">
-            <div class="card-body">
-              <p class="card-text">TV and rap star Drake is best known in Canada for playing wheelchair-bound Jimmy Brooks on 'Degrassi: The Next Generation,' and for hit songs like "Take Care," "One Dance" and "Hotline Bling."</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                    <button class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://drakerelated.com/products/scary-hours-hoodie';">
-                        View Merch
-                      </button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-            <img class="alignbeau" src="./pictures/Ariana.jpg.jpeg" alt="Ariana Grande" width="400" height="350">
-            <div class="card-body">
-              <p class="card-text">Ariana Grande is a sitcom-star-turned-pop music sensation, known for such hit songs as "Problem," "Bang Bang," "Dangerous Woman" and "Thank U, Next."</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://shop.arianagrande.com/products/thank-u-next-longsleeve-t-shirt?utm_campaign=products&utm_medium=referral&utm_source=shop.arianagrande.com';">View Merch</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-            <img class="alignbeau" src="./pictures/the-weeknd.jpg" alt="The Weekend" width="400" height="350">
-            <div class="card-body">
-              <p class="card-text">Grammy-winning R&B singer and performer the Weeknd has created such hits as 'Can't Feel My Face,' 'The Hills,' 'Starboy' and 'Heartless.'</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://shop.theweeknd.com/products/dawn-fm-cover-tee?c=%2Fcollections%2Fnew-arrivals&t=New+Arrivals';">View Merch</button>
-                  
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-            <img class="alignbeau" src="./pictures/Charlie-puth.jpg.jpeg" alt="Charlie Puth"  width="400" height="350">
-            <div class="card-body">
-              <p class="card-text">Pop musician who quickly advanced from YouTube likes to RIAA certifications for hits such as "See You Again," "Marvin Gaye," and "Attention." </p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                    <button class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://shop.charlieputh.com/products/charlie-puth-charlie-scribble-face-hoodie';">
-                        View Merch
-                      </button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-          <img class="alignbeau" src="./pictures/Kygojpg.jpeg" alt="Kygo" width="400" height="350">
-            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-            <div class="card-body">
-              <p class="card-text">Tipped by Billboard Magazine as the ‘the next EDM superstar’, Kyrre Gørvell-Dahll, a.k.a KYGO, has gone from bedroom producer to one of the most hyped electronic artists on the planet in unprecedented time</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                    <button class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://kygosgoldenhour.com/product/golden-hour-hoodie/';">
-
-                        View Merch
-                      </button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-            <img class="alignbeau" src="./pictures/billie_eilish.jpeg" alt="Billie Eillish" width="400" height="350">
-            <div class="card-body">
-              <p class="card-text">American singer and songwriter Billie Eilish became a pop superstar by way of her distinctive musical and fashion sensibilities and songs like "Ocean Eyes," "Bad Guy" and "Therefore I Am."</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                    <button class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://store.billieeilish.com/products/world-tour-black-hoodie';">
-                        View Merch
-                      </button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- <div class="col">
-          <div class="card shadow-sm"> -->
-            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div> -->
-      </div>
-    </div>
-  </div>
-</main>
-
-<footer class="text-muted py-5">
-  <div class="container">
-    <p class="float-end mb-1">
-      <a href="#">Back to top</a>
-    </p>
-  </div>
-</footer>
-
-
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
-      
+  </main>
   </body>
-</html>
+  </html>
