@@ -29,8 +29,10 @@
               </ul>
             </nav>
             <div class="search">
+              <!-- <label for="search">Search Users</label>
+                <input type="search" id="search"> -->
               <form>
-                <input type="text" placeholder="Search">
+                <input type="search" id="search-input" placeholder="Search">
                 <button type="submit">Go</button>
               </form>
             </div>
@@ -80,6 +82,41 @@
     
   </main>
   </body>
+  <script>
+    // Load product data from JSON files
+    let products = [];
+    fetch('data.json')
+      .then(response => response.json())
+      .then(data => products.push(...data));
+    let arianaProducts = [];
+    fetch('arianaInventory.json')
+      .then(response => response.json())
+      .then(data => arianaProducts.push(...data));
+
+    // Add event listener to search input field
+  const searchInput = document.getElementById('search-input');
+  searchInput.addEventListener('input', () => {
+    // Get search query
+    const query = searchInput.value.toLowerCase();
+    
+    // Filter products based on search query
+    const filteredProducts = products.filter(product => {
+      return product.name.toLowerCase().includes(query);
+    });
+    const filteredArianaProducts = arianaProducts.filter(product => {
+      return product.name.toLowerCase().includes(query);
+    });
+    
+    // Display filtered products
+    displayProducts(filteredProducts, filteredArianaProducts);
+  });
+  
+  // Function to display filtered products
+  function displayProducts(products, arianaProducts) {
+    // TODO: Display the filtered products on the webpage
+  }
+
+  </script>
   </html>
 
 
