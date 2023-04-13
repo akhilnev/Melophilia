@@ -4,21 +4,48 @@
       "description": "Black hoodie with the Scorpion album art on the front and 'Drake' printed on the back.",
       "price": 120,
       "image": "./myotherimages/drakehoodie.png",
-      "size": ["S", "M", "L", "XL"]
+      "size": ["S", "M", "L", "XL"],
+      "quantity" : 1
     },
     "item2": {
       "name": "Drake Certified Lover Boy T-Shirt",
       "description": "White t-shirt with 'Certified Lover Boy' printed on the front and 'Drake' printed on the back.",
       "price": 65,
       "image": "./myotherimages/clbtshirt.png",
-      "size": ["S", "M", "L", "XL"]
+      "size": ["S", "M", "L", "XL"],
+      "quantity" : 1
     },
     "item3": {
       "name": "Drake OVO Owl Cap",
       "description": "Black baseball cap with the OVO owl logo embroidered on the front.",
       "price": 30,
       "image": "./myotherimages/owldrakecap.png",
-      "size": ["One Size"]
+      "size": ["One Size"],
+      "quantity" : 1
+    },
+    "item4": {
+      "name": "Sweetener Hoodie",
+      "description": "A black hoodie with the Sweetener album artwork printed on the front.",
+      "price": 39.99,
+      "image": "./myotherimages/arianahoodie.png",
+      "size": ["S", "M", "L", "XL"],
+      "quantity" : 1
+    },
+    "item5": {
+      "name": "Positions T-Shirt",
+      "description": "A white T-shirt with the Positions album artwork printed on the front.",
+      "price": 24.99,
+      "image": "./myotherimages/arianatee.png",
+      "size": ["S", "M", "L", "XL"],
+      "quantity" : 1
+    },
+    "item6": {
+        "name": "Thank U Next Backpack",
+        "description": "A pink backpack with the Thank U Next album artwork printed on the front pocket.",
+        "price": 49.99,
+        "image": "./myotherimages/backpack.png",
+      "size": ["One Size"],
+      "quantity" : 1
     }
   }
   
