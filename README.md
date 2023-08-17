@@ -1,4 +1,4 @@
-# SE_319
+#MELOPHILIA 
 
 Introduction:<br />
 Our task for the given project is to design a catalog of products tailored towards a specific theme, we thought of one and we will get in detail about it shortly.
