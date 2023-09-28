@@ -10,4 +10,5 @@ Idea of Catalog of Products:<br />
 Our idea is to initially list the merchandise of the artist ‘Drake’ and list the other artists’ merchandise we would have in the near future. After clicking on the merch the user wants to get, we would redirect them to the official website of the artist and show them the buy now page of the chosen merchandise. The idea is to, hopefully, make money out of affiliate marketing.
 
 Link to the initial working demo:<br />
-https://drive.google.com/file/d/12yOBfKe9xNBbQMGvphxR04yikVS4kvuz/view?usp=share_link
+https://drive.google.com/file/d/1_-MpHWXbQGWjFRfxj7n_o5jy6p-6zYd-/view?usp=sharing
+
