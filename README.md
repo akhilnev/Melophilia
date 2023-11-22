@@ -47,7 +47,7 @@ To get started with Melophilia, follow these steps:
 
 ## Demo
 
-Watch a demo of Melophilia [here](https://drive.google.com/file/d/1_-MpHWXbQGWjFRfxj7n_o5jy6p-6zYd-/view?usp=sharing).
+Watch the intial demo of Melophilia [here](https://drive.google.com/file/d/1_-MpHWXbQGWjFRfxj7n_o5jy6p-6zYd-/view?usp=sharing).
 
 
 
