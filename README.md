@@ -1,14 +1,55 @@
-#MELOPHILIA 
+# Melophilia
 
-Introduction:<br />
-Our task for the given project is to design a catalog of products tailored towards a specific theme, we thought of one and we will get in detail about it shortly.
+Melophilia is a MERN Full-Stack Web Application designed to provide an official merchandise inventory for renowned Hip-Hop Artists. The platform aims to enhance the user experience, saving customers up to 25% of their browsing time online.
 
-Project Description:<br />
-Our idea was to make a website that holds within it a melophile’s dream store. It is a website that displays the official merchandise of all famous music artists. The reason we chose to do this was the fact that, it is hard to reach every artist’s merchandise and compare them. We wanted to make a website that possibly displays every artist’s merchandise and lets them compare designs and prices and lets them chose what they want. 
+## Features
 
-Idea of Catalog of Products:<br />
-Our idea is to initially list the merchandise of the artist ‘Drake’ and list the other artists’ merchandise we would have in the near future. After clicking on the merch the user wants to get, we would redirect them to the official website of the artist and show them the buy now page of the chosen merchandise. The idea is to, hopefully, make money out of affiliate marketing.
+- **Official Merchandise Inventory:** Explore a comprehensive collection of official merchandise from renowned Hip-Hop Artists.
+- **Advanced Functionality:**
+  - User Registration: Create an account to personalize your experience.
+  - Shopping Cart: Easily manage and review selected items before making a purchase.
+ 
+- **Efficiency Improvement:**
+  - Designed to save customers up to 25% of their browsing time online.
 
-Link to the initial working demo:<br />
-https://drive.google.com/file/d/1_-MpHWXbQGWjFRfxj7n_o5jy6p-6zYd-/view?usp=sharing
+## Tech Stack
+
+- **Full-Stack Development:**
+  - Utilized MERN stack (MongoDB, Express.js, React, Node.js) for a robust and scalable application.
+  - Integrated advanced features using React for the frontend and Node.js for the backend.
+
+- **Containerization:**
+  - Containerized the application using Docker, ensuring consistency across different environments.
+  - Configured Docker with a network and volume for efficient container management.
+
+- **Cloud Hosting:**
+  - In the process of hosting the website using AWS for scalability and reliability.
+
+## Project Structure
+
+- **Advanced Features:**
+  - Explore the codebase to understand the implementation of advanced features like Registration, Cart, and Payment functionalities.
+
+- **Docker Configuration:**
+  - Find details on how the application is containerized using Docker, including network and volume configuration.
+
+- **AWS Hosting:**
+  - Follow instructions for hosting the website on AWS for optimal performance and scalability.
+
+## Getting Started
+
+To get started with Melophilia, follow these steps:
+
+1. Clone the repository.
+2. Explore the codebase for detailed documentation on advanced features.
+3. Refer to Docker configuration for containerization details.
+4. Follow the provided instructions for hosting the website on AWS.
+
+## Demo
+
+Watch a demo of Melophilia [here](https://drive.google.com/file/d/1_-MpHWXbQGWjFRfxj7n_o5jy6p-6zYd-/view?usp=sharing).
+
+
+
+
 
