@@ -43,7 +43,6 @@ To get started with Melophilia, follow these steps:
 1. Clone the repository.
 2. Explore the codebase for detailed documentation on advanced features.
 3. Refer to Docker configuration for containerization details.
-4. Follow the provided instructions for hosting the website on AWS.
 
 ## Demo
 
